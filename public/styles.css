@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .image-container {
+    margin-top: 50px;
+    position: absolute; /* Set position to absolute */
+    top: 0; /* Position at the top */
+    left: 57.5%; /* Align horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 20%; /* Adjust the width as needed */
+    max-width: 20%; /* Maximum width */
+  }
+  
+  .image-container img {
+    width: 20%; /* Set width to 100% to ensure responsiveness */
+    max-width: 20%; /* Set max-width to 20% */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  h1 {
+    color: #333333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .download-link {
+    margin-top: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    background-color: #28a745;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: #218838;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
